@@ -67,7 +67,7 @@ up-to-date internal domains are. But it doesn't, so it's not dynamic.
 keeps track of what internal route maps to what overlay IP, very similar to the
 routes table in the GoRouter.
 
-![href](https://github.com/cloudfoundry/cf-networking-release/blob/develop/docs/architecture-diagram.png?raw=true)
+![href](https://github.com/cloudfoundry/cf-networking-release/blob/develop/docs/service-discovery-arch.png)
 
 🤔 **Make your internal domain work**
 1. Add our internal domain meow.meow.meow to the bosh manifest.
