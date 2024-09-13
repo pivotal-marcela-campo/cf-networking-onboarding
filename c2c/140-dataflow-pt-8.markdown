@@ -60,7 +60,7 @@ Diego Cell
 1. Make sure there are no c2c policies. (`cf network-policies --help`)
 
 📝**Look at iptables rules**
-1. Ssh onto the Digeo Cell where appB is running and become root.
+1. SSH onto the Diego Cell where appB is running and become root.
 1. Look at the iptables rules on the filter table
    ```bash
    iptables -S

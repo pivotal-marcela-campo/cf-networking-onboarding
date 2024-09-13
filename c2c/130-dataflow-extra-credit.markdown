@@ -19,7 +19,7 @@ sidebar:
 
 So far the overlay packet has been encapsulated into an underlay packet and
 then it is sent to a second Diego Cell. Once the underlay packet gets to the
-Diego Cell it is gets decapsulated by the VTEP. But how does "it" know to send
+Diego Cell it gets decapsulated by the VTEP. But how does "it" know to send
 these specific underlay packets to the silk-vtep interface to be decapsulated
 and not other packets?
 
