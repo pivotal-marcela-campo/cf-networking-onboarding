@@ -22,7 +22,7 @@ But IPs are ugly and URLs are pretty. Also, what happens when you restage an
 app? Also, how do I load balance across many instances when I can only use IPs?
 
 In order to fix these problems, we implemented Service Discovery, which is
-apart of cf-networking-release. Service Discovery is also sometimes called
+a part of cf-networking-release. Service Discovery is also sometimes called
 app-sd. Service Discovery is a fancy way of saying we handle the URL -> IP
 translation for internal routes. Now appA can "discover" where the "service"
 appB is, without having to know the IP.
