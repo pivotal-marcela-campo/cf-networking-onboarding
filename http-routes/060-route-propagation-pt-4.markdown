@@ -58,7 +58,7 @@ Let's take a look at that route table.
                                                    traffic for this route. This should
                                                    match DIEGO_CELL_IP:DIEGO_CELL_ENVOY_PORT
          "tls": true                       <------ This means Route Integrity is turned on,
-                                                   so the GoRouter will use send traffic to
+                                                   so the GoRouter will send traffic to
                                                    this app over TLS
        }
      ]

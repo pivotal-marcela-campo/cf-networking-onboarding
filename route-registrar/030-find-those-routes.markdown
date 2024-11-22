@@ -30,8 +30,7 @@ happens with component routes. But instead of the Route Emitter emitting routes
 my-http-server VM.
 * You can find the NATS username, password, and host on the my-http-server VM
   at `/var/vcap/jobs/route_registrar/config/registrar_settings.json`
-* See the story [Route Propagation - Part 3 - Route Emitter and NATS](../http-routes/route-propagation-pt-3) if you
-  help.
+* See the story [Route Propagation - Part 3 - Route Emitter and NATS](../http-routes/route-propagation-pt-3) if you need help.
 * ❓ How do the component route NATS messages compare to the app route NATS messages?
 
 🤔 **Look at the routes table**

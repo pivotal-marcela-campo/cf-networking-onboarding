@@ -34,7 +34,7 @@ provide the same network services as VLAN does, but with greater extensibility
 and flexibility. Container to container (c2c) networking uses VXLAN to create
 the overlay network.
 
-**VTEP**- VXLAN EndPoints - are VXLAN tunnels that encapsulate outgoing overlay
+**VTEP**- VXLAN Tunnel EndPoint - are VXLAN tunnels that encapsulate outgoing overlay
 traffic into underlay packets and decapsulate incoming underlay packets into
 overlay packets. The VTEP that c2c uses is called silk-vtep.
 
